@@ -37,7 +37,7 @@
   "main": "src/client",
   "type": "module",
   "scripts": {
-    "start": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec ts-node-dev src/",
+    "start": "nodemon src/",
     "dev": "nodemon src/",
     "prettier": "npx prettier \"**/*.js\" --write",
     "mocha": "cross-env NODE_ENV=test mocha test/ --recursive --exit",
